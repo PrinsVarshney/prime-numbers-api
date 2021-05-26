@@ -7,10 +7,23 @@
 
 RESTful API providing prime numbers.
 
-The application is deployed on Heroku and Swagger is accessed via link below
+The application is deployed on Heroku.
 
-   [Prime Numbers API on Heroku]()
- 
+Swagger:
+   [https://prime-numbers-api-by-prins.herokuapp.com/swagger-prime-numbers.html](https://prime-numbers-api-by-prins.herokuapp.com/swagger-prime-numbers.html)
+   
+Endpoints:
+
+   [https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10](https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10)
+   
+   [https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10?provided-algorithm=brute-force](https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10?provided-algorithm=brute-force)
+   
+   [https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10?provided-algorithm=optimized-brute-force](https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10?provided-algorithm=optimized-brute-force)
+   
+   [https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10?provided-algorithm=stream](https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10?provided-algorithm=stream)
+   
+   [https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10?provided-algorithm=sieve-of-eratosthenes](https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10?provided-algorithm=sieve-of-eratosthenes)
+    
 
 ## Prerequisites
 - JDK 8 +
