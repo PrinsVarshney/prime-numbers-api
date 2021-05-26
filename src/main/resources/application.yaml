@@ -1,0 +1,37 @@
+server: 
+   port: 8090
+
+springdoc:
+   swagger-ui.path: /swagger-prime-numbers.html
+   swagger-ui.operationsSorter: method
+   version: 1.0.0
+   title: Prime Numbers API
+   description: RESTful API providing prime numbers.
+   contact:
+        name: Prins Varshney
+        url: https://www.linkedin.com/in/prins-varshney-1660a17a/
+        
+logging:
+   level:
+        com.company.primenumbers.rest: DEBUG
+        
+prime-numbers-algorithms:
+   all-algorithms:
+     - 
+       name: brute-force
+       clazz: com.company.primenumbers.rest.algorithm.BruteForce
+       limit: 1000000
+     - 
+       name: optimized-brute-force
+       clazz: com.company.primenumbers.rest.algorithm.OptimizedBruteForce
+       limit: 100000000
+     - 
+       name: stream
+       clazz: com.company.primenumbers.rest.algorithm.Stream
+       limit: 100000000  
+     - 
+       name: sieve-of-eratosthenes
+       clazz: com.company.primenumbers.rest.algorithm.SieveOfEratosthenes
+       limit: 100000000
+    
+   default-algorithm: sieve-of-eratosthenes
