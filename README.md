@@ -9,20 +9,17 @@ RESTful API providing prime numbers.
 
 The application is deployed on Heroku.
 
-Swagger:
-   [https://prime-numbers-api-by-prins.herokuapp.com/swagger-prime-numbers.html](https://prime-numbers-api-by-prins.herokuapp.com/swagger-prime-numbers.html)
-   
-Endpoints:
+   [Swagger](https://prime-numbers-api-by-prins.herokuapp.com/swagger-prime-numbers.html)
 
-   [https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10](https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10)
+   [With Default Algorithm](https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10)
    
-   [https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10?provided-algorithm=brute-force](https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10?provided-algorithm=brute-force)
+   [With Brute Force Algorithm](https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10?provided-algorithm=brute-force)
    
-   [https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10?provided-algorithm=optimized-brute-force](https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10?provided-algorithm=optimized-brute-force)
+   [With Optimized Brute Force Algorithm](https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10?provided-algorithm=optimized-brute-force)
    
-   [https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10?provided-algorithm=stream](https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10?provided-algorithm=stream)
+   [With Stream Algorithm](https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10?provided-algorithm=stream)
    
-   [https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10?provided-algorithm=sieve-of-eratosthenes](https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10?provided-algorithm=sieve-of-eratosthenes)
+   [With Sieve Of Eratosthenes Algorithm](https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10?provided-algorithm=sieve-of-eratosthenes)
     
 
 ## Prerequisites
