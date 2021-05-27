@@ -7,19 +7,19 @@
 
 RESTful API providing prime numbers.
 
-The application is deployed on Heroku.
+The application is deployed on Heroku, and can be accessed as following -
 
    [Swagger](https://prime-numbers-api-by-prins.herokuapp.com/swagger-prime-numbers.html)
 
-   [With Default Algorithm](https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10)
+   [Generate prime numbers with Default Algorithm](https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10)
    
-   [With Brute Force Algorithm](https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10?provided-algorithm=brute-force)
+   [Generate prime numbers with Brute Force Algorithm](https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10?provided-algorithm=brute-force)
    
-   [With Optimized Brute Force Algorithm](https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10?provided-algorithm=optimized-brute-force)
+   [Generate prime numbers with Optimized Brute Force Algorithm](https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10?provided-algorithm=optimized-brute-force)
    
-   [With Stream Algorithm](https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10?provided-algorithm=stream)
+   [Generate prime numbers with Stream Algorithm](https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10?provided-algorithm=stream)
    
-   [With Sieve Of Eratosthenes Algorithm](https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10?provided-algorithm=sieve-of-eratosthenes)
+   [Generate prime numbers with Sieve Of Eratosthenes Algorithm](https://prime-numbers-api-by-prins.herokuapp.com/prime-numbers-api/v1/primes/10?provided-algorithm=sieve-of-eratosthenes)
     
 
 ## Prerequisites
@@ -51,12 +51,12 @@ http://localhost:8090/swagger-prime-numbers.html
 ## Tests
 
 Generate Prime Numbers:
-- by default it uses Sieve-Of-Eratosthenes algorithm - this can be changed editing application.yaml
+  (by default it uses Sieve-Of-Eratosthenes Algorithm - this can be changed editing [application.yaml](https://github.com/PrinsVarshney/prime-numbers-api/blob/main/src/main/resources/application.yaml))
 ```bash
 http://localhost:8090/prime-numbers-api/v1/primes/10
 ```
 
-Generate Prime Numbers with Brute Force:
+Generate prime numbers with Brute Force Algorithm:
 ```bash
 http://localhost:8090/prime-numbers-api/v1/primes/10?provided-algorithm=brute-force
 ```
@@ -75,7 +75,7 @@ The application provides response in JSON and XML. You can get specific response
 
 ## Performance Tuning
 
-1) Currently the algorithms are limited to a specific number - these are configured in "application.yaml" - and can be tuned based on underlying infrastructure.
+1) Currently the algorithms are limited to a specific number - these are configured in [application.yaml](https://github.com/PrinsVarshney/prime-numbers-api/blob/main/src/main/resources/application.yaml) - and can be tuned based on underlying infrastructure.
 
 2) The application is designed in such a way that new algorithm(s) can be added and configured to make it future ready.
 
